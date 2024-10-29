@@ -9,14 +9,16 @@
     }
 
     #login > #imagem{
-        float: left;
+        float: right;
         width: 30%;
         height: 100%;
+        transition: 0.5s;
     }
 
     #login > #form{
-        float: right;
+        float: left;
         width: 70%;
+        transition: 0.5s;
     }
 }
 
@@ -39,5 +41,12 @@
         float: right;
         width: 50%;
     }
+
+    #form p{
+        font-size: 1.2em;
+        transition: 0.5s;
+    }
 }
+
+
 
